@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from FEBlock.codes.config.DCLS.models.diffsr_modules import RRDBNet
+from FEBlock.codes.config.FE.models.diffsr_modules import RRDBNet
 from srdiff_celeb import CelebDataSet
 from srdiff_df2k import Df2kDataSet
 from hparams import hparams

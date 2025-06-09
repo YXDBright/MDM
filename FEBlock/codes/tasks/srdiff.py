@@ -1,8 +1,8 @@
 import os.path
 
 import torch
-from FEBlock.codes.config.DCLS.models.diffsr_modules import Unet, RRDBNet
-from FEBlock.codes.config.DCLS.models.diffusion import GaussianDiffusion
+from FEBlock.codes.config.FE.models.diffsr_modules import Unet, RRDBNet
+from FEBlock.codes.config.FE.models.diffusion import GaussianDiffusion
 from FEBlock.codes.tasks.trainer import Trainer
 from hparams import hparams
 from utils import load_ckpt

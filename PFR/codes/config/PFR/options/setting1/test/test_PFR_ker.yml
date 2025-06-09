@@ -1,0 +1,23 @@
+name: MDM
+suffix: x6
+model: blind_ker
+distortion: sr
+scale: 6
+crop_border: ~
+rrdb_ckpt: ../rrdb_ckpt
+gpu_ids: [2]
+
+datasets:
+
+  test1:
+    name: MRItest
+    mode: LQGT
+    dataroot_GT: ../GT
+    dataroot_LQ: ../LQ
+
+
+path:
+
+  pretrain_model_G: ../Your pretrain_model_G
+
+

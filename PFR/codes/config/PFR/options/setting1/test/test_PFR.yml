@@ -1,0 +1,24 @@
+name: MDM
+suffix: x4
+model: blind
+distortion: sr
+scale: 4
+crop_border: ~
+
+rrdb_ckpt: ../rrdb_ckpt
+
+gpu_ids: [0]
+
+datasets:
+
+  test1:
+    name: Mritest
+    mode: LQGT
+    dataroot_GT: ../GT
+    dataroot_LQ: ../LQ
+
+
+path:
+
+  pretrain_model_G: ../Your pretrain_model_G
+
